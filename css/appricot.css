@@ -1,0 +1,156 @@
+header {
+  width: 100%;
+  height: 75px;
+  background-color: gray;
+}
+header img {
+  margin: 10px 5% 0 7%;
+}
+header a {
+  margin-right: 2%;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+#slide {
+  width: 100%;
+  height: 100%;
+}
+.title {
+  font-size: 34px;
+  padding: 12px;
+  background-color: lightgray;
+  position: absolute;
+  left: 200px;
+  opacity: 0.7;
+}
+#first_part {
+  width: 630px;
+  top: 290px;
+  font-size: 34px;
+  padding: 12px;
+  background-color: lightgray;
+  position: absolute;
+  left: 200px;
+  opacity: 0.7;
+}
+#second_part {
+  width: 410px;
+  top: 350px;
+  font-size: 34px;
+  padding: 12px;
+  background-color: lightgray;
+  position: absolute;
+  left: 200px;
+  opacity: 0.7;
+}
+#arrow_left {
+  position: absolute;
+  top: 310px;
+  left: 100px;
+}
+#arrow_right {
+  position: absolute;
+  top: 310px;
+  right: 100px;
+}
+#arrow_left:hover,
+#arrow_right:hover {
+  opacity: 0.5;
+}
+#circle1,
+#circle2,
+#circle3,
+#circle4 {
+  position: absolute;
+  top: 600px;
+}
+#circle1 {
+  left: 630px;
+}
+#circle2 {
+  left: 655px;
+}
+#circle3 {
+  left: 680px;
+}
+#circle4 {
+  left: 705px;
+}
+#links {
+  display: flex;
+  margin: 0 7%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.link {
+  width: 300px;
+  background-color: #F0F0F0 ;
+  padding: 40px 0;
+}
+.link img {
+  float: left;
+  margin-right: 30px;
+  padding-bottom: 20px;
+}
+.link h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.link p {
+  font-size: 13px;
+}
+.titles {
+  font-size: 30px;
+  text-align: center;
+  margin: 80px 0 50px 0;
+}
+#about_us_p {
+  font-size: 20px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+#read_our_story {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 100px 0;
+  border-bottom: 1px solid #E0E0E0;
+  color: black;
+}
+input,
+textarea {
+  display: block;
+  padding: 15px;
+  width: 30%;
+  border: none;
+  background-color: #E8E8E8;
+  margin: 0 auto 20px auto;
+  border-radius: 10px;
+}
+textarea {
+  height: 150px;
+}
+#button {
+  display: block;
+  padding: 15px;
+  width: 30%;
+  background-color: gray;
+  color: white;
+  margin: 0 auto 20px auto;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 5px;
+}
+footer {
+  background-color: #F8F8F8;
+  border-top: 1px solid #E0E0E0;
+  margin-top: 150px;
+  padding: 60px 0;
+  text-align: center;
+}
+#footer_pic,
+#footer_p {
+  margin-top: 30px;
+}

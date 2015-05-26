@@ -8,7 +8,6 @@ var circle4 = document.getElementById('circle4');
 
 
 var slike = ["slike/slide_1.png", "slike/slide_2.jpg", "slike/slide_3.jpg", "slike/slide_4.jpg"];
-
 counter = 0;
 
 right_button.onclick = function() {
@@ -18,8 +17,7 @@ right_button.onclick = function() {
 		else {
 		counter++;
 		}
-		picChange(counter);
-		console.log(counter);
+		picChange(counter);	
 	}
 
 left_button.onclick = function() {
@@ -30,10 +28,7 @@ left_button.onclick = function() {
 		counter--;
 		}
 		picChange(counter);
-		console.log(counter);
 	}
-
-
 
 function picChange(counter) {
 
@@ -59,10 +54,13 @@ function picChange(counter) {
 
    else {
  	slide.src = "slike/slide_4.jpg";
- 	circle4.src = "slike/active.png";
+ 	circle4.src = "slike/active.png";	
  }
-
 }
+
+
+
+
 
 
 

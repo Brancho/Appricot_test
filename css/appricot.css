@@ -4,7 +4,7 @@ body {
 header {
   width: 100%;
   height: 75px;
-  background-color: gray;
+  background-color: #202020;
 }
 header img {
   margin: 10px 5% 0 7%;
@@ -128,7 +128,7 @@ textarea {
   display: block;
   padding: 15px;
   width: 30%;
-  background-color: gray;
+  background-color: #202020;
   color: white;
   margin: 0 auto 20px auto;
   font-size: 22px;

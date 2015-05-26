@@ -1,3 +1,6 @@
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
 header {
 	width: 100%;
 	height: 75px;
@@ -9,7 +12,7 @@ header {
 		margin-right: 2%;
 		text-decoration: none;
 		color: white;
-		font-size: 14px;
+		font-size: 18px;
 	}
 }
 
@@ -23,7 +26,7 @@ header {
 	padding: 12px;
 	background-color: lightgray;
 	position: absolute;
-	left: 200px;
+	left: 15%;
 	opacity: 0.7;
 }
 
@@ -53,24 +56,18 @@ header {
 #arrow_left:hover, #arrow_right:hover {
 		opacity: 0.5;
 	}
-	
-#circle1, #circle2, #circle3, #circle4 {
+
+#circles {
 	position: absolute;
 	top: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
 }
 
-#circle1 {
-	left: 630px;
-}
-#circle2 {
-	left: 655px;
-}
-#circle3 {
-	left: 680px;
-}
-#circle4 {
-	left: 705px;
-}
+
 
 
 
@@ -97,7 +94,7 @@ header {
 		margin-bottom: 20px;
 	}
 	p {
-		font-size: 13px;
+		font-size: 14px;
 	}
 
 }
@@ -115,7 +112,6 @@ header {
 }
 
 #read_our_story {
-	text-decoration: none;
 	text-align: center;
 	display: block;
 	padding: 100px 0;
@@ -161,3 +157,119 @@ footer {
 #footer_pic, #footer_p {
 	margin-top: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+	#first_part, #second_part {
+		left: 0;
+		right: 0;
+		font-size: 25px;
+		margin:0 auto;
+	}
+
+	#first_part {
+		width: 430px;
+	}
+	#second_part {
+		width: 280px;
+	}
+	#circles {
+		top: 500px;
+	}
+}
+
+@media screen and (min-width: 1390px) {
+#links {
+	margin: 0 15%;
+}
+}
+
+@media screen and (min-width: 1700px) {
+	#links {
+	margin: 0 20%;
+}
+}
+
+@media screen and (max-width: 850px) {
+	#first_part {
+		top: 140px;
+	}
+	#second_part {
+		top: 200px;
+	}
+	#circles {
+		top: 400px;
+	}
+	input, textarea, #button {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#arrow_right, #arrow_left, #circles {
+		display: none;
+	}
+	#links {
+		justify-content: center;
+	}
+	.link {
+		padding: 20px 0;
+		margin-top: 10px;
+		width: 350px;
+	}
+	.titles {
+		margin: 40px 0 30px 0;
+	}
+	#read_our_story {
+		padding: 30px 0;
+	}
+	footer {
+		margin-top: 30px;
+		padding: 30px 0;
+	}
+	#footer_pic, #footer_p {
+		margin-top: 15px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#first_part {
+		width: 340px;
+		font-size: 20px;
+	}
+	#second_part {
+		width: 225px;
+		font-size: 20px;
+	}
+	input, textarea, #button {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 350px) {
+		#first_part {
+		width: 300px;
+		font-size: 17px;
+	}
+	#second_part {
+		width: 190px;
+		font-size: 17px;
+	}
+	header a {
+		font-size: 17px;
+	}
+}
+
+
+
+

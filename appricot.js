@@ -7,7 +7,7 @@ var circle3 = document.getElementById('circle3');
 var circle4 = document.getElementById('circle4');
 
 
-var slike = ["slike/slide_1.png", "slike/slide_1.png", "slike/slide_1.png", "slike/slide_1.png"];
+var slike = ["slike/slide_1.png", "slike/slide_2.jpg", "slike/slide_3.jpg", "slike/slide_4.jpg"];
 
 counter = 0;
 
@@ -48,17 +48,17 @@ function picChange(counter) {
  }
 
  else if (counter == 1) {
- 	slide.src = "slike/slide_1.png";
+ 	slide.src = "slike/slide_2.jpg";
  	circle2.src = "slike/active.png";
  }
 
   else if (counter == 2) {
- 	slide.src = "slike/slide_1.png";
+ 	slide.src = "slike/slide_3.jpg";
  	circle3.src = "slike/active.png";
  }
 
    else {
- 	slide.src = "slike/slide_1.png";
+ 	slide.src = "slike/slide_4.jpg";
  	circle4.src = "slike/active.png";
  }
 
